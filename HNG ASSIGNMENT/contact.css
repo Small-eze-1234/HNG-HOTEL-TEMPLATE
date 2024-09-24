@@ -1,0 +1,268 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.ten{
+    background-color: black;
+    width: 100%;
+    height: 20vh;
+    width: 100%;
+display: flex;
+justify-content: space-around;
+color: antiquewhite;
+padding-top: 10rem;
+}
+.her{
+    position: relative;
+}
+.pot{
+    position: relative;
+}
+.pot:hover::after{
+    content: "";
+    width: 45px;
+    height: 3px;
+    background-color: orange;
+    position: absolute;
+    right: 2%;
+    bottom: 82%;  
+}
+.her:hover::after{
+    content: "";
+    width: 60px;
+    height: 3px;
+    background-color: orange;
+
+    position: absolute;
+    right: 27%;
+    bottom: 82%;  
+}
+.rat{
+    display: grid;
+    grid-template-columns: repeat(4,60%);
+    
+    gap: 1rem;
+    
+    width: 100%;
+    height: 100vh;
+}
+
+header{
+    
+    background-color: black;
+    width: 100%;
+    height: 20vh;
+    width: 100%;
+display: flex;
+justify-content: space-around;
+color: antiquewhite;
+padding-top: 10rem;
+}
+.two{
+    background-color: black;
+    border-color: orange;
+    color: orange;
+}
+.one{
+    background-image: url(assets/Rectangle\ 3\ \(4\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.three{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 65vh;
+    width: 100%;
+}
+.form{
+background-color: rgb(27, 27, 27);
+text-align: center;
+color: white;
+position: relative;
+}
+.four{
+background-color: orange;
+display: inline;
+text-align: center;
+
+
+
+}
+.n{
+    font-size: 15px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.o{
+    position: relative;
+     
+}
+.last{
+position: absolute;
+font-size: 10px;
+left: 50%;
+}
+.yet{
+position: absolute;
+font-size: 10px;
+left: 35%;
+top: 43%;
+}
+.text{ 
+    position: relative;
+    
+
+}
+.oil{
+    position: relative;
+    bottom: 15%;
+    }
+    .oil:hover::after{
+        content: "";
+        width: 150px;
+        height: 3px;
+        background-color: orange;
+        position: absolute;
+        right: 6%;
+        bottom:60%;  
+    }
+/* .fa-brands:hover{
+    color: black; 
+} */
+.area{
+    position: absolute;
+font-size: 10px;
+left: 35%;
+}
+.i{
+position: relative;
+width: 195px;
+}
+.f{
+    position: absolute;
+    width: 90px;
+    left: 35%;
+}
+.name{
+    font-size: 10px;
+    position: absolute;
+    left: 35%;
+}
+
+.u{
+  width: 90px; 
+  position:absolute; 
+  left: 50.5%;
+}
+.text{
+    height: 100px;
+    width: 200px;
+    
+    
+}
+
+.email{
+    color: white;
+    background-color: black;
+    width: 9rem;
+    height: 2rem;
+    position: absolute;
+    left: 67%;
+    top: 23%;
+
+}
+.k{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 13px;
+}
+.s{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+p{
+margin: 10px;
+}
+.Privacy{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.ok{
+    position: absolute;
+    bottom: 0;
+    left: 65%;
+}
+.on{
+    position: absolute;
+    bottom: 0;
+    left: 80%;
+}
+.Submit{
+   background-color: orange; 
+   color: black;
+   width: 4rem;
+   height: 2.2rem;
+   position: absolute;
+   left: 78%;
+   bottom: 63%;
+}
+.west{
+    position: absolute;
+    bottom: 49%;
+}
+.bottom{
+    background-color: rgb(0, 0, 0);
+    height: 40vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    color: white;
+    font-size: 20px;
+    position: relative;
+    
+}
+.est{
+    
+    font-size: 15px;
+    grid-column-start: 2;
+}
+button{
+    background-color: orange;
+    width:205px;
+}
+.cup{
+    font-size: 15px;
+}
+.o::after{
+    content: "";
+    width: 60px;
+    height: 3px;
+    background-color: black;
+    position: absolute;
+    right: 45%;
+    top: 100%;
+}
+.message{
+    position: relative;
+}
+.message::after{
+    content: "";
+    width: 60px;
+    height: 3px;
+    background-color: orange;
+    position: absolute;
+    right: 45%;
+    top: 100%;   
+}

@@ -1,0 +1,330 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+header{
+    
+    background-color: black;
+    
+    height: 20vh;
+    width: 99%;
+display: flex;
+justify-content: space-around;
+color: white;
+padding-top: 6rem;
+}
+.her{
+    position: relative;
+}
+.pot{
+    position: relative;
+}
+.pot:hover::after{
+    content: "";
+    width: 45px;
+    height: 3px;
+    background-color: orange;
+    position: absolute;
+    right: 2%;
+    bottom: 82%;  
+}
+.her:hover::after{
+    content: "";
+    width: 60px;
+    height: 3px;
+    background-color: orange;
+
+    position: absolute;
+    right: 27%;
+    bottom: 82%;  
+}
+.two{
+    background-color: black;
+    border-color: orange;
+    color: orange;
+    
+}
+.oil{
+    position: relative;
+    bottom: 18%;
+    }
+    .oil:hover::after{
+        content: "";
+        width: 150px;
+        height: 3px;
+        background-color: orange;
+        position: absolute;
+        right: 6%;
+        bottom: 60%;  
+    }
+    .one{
+        background-image: url(assets/Rectangle\ 3\ \(3\).png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 99%;
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 50px;
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        
+    }
+    /* @media screen and (max-width:900px) {
+        .one{
+        width: 80%;  
+    }
+    .div{
+        width: 80%;
+}
+    } */
+    .div{
+        display: grid;
+        grid-template-rows: repeat(6,2fr);
+        height: 470vh;
+        width: 99%;
+        background-color: black;
+        position: relative;
+    }
+    .drt{
+        display: block;
+        position: absolute;
+        left: 40%;
+        color: white;
+        top: 190px;
+    }
+    .pat{
+        display: block;
+        position: absolute;
+        left: 40%;
+        color: white;
+        top:130px;
+    }
+    .top{
+        color: white;
+    }
+    .dove{
+        color: white;
+        top: 20px;
+        position: relative;
+        left: 40%;
+    }
+    .op{
+    
+      display: flex; 
+      justify-content: center; 
+      position: relative;
+    }
+.op::after{
+    content: "";
+    width: 150px;
+    height: 3px;
+    position: absolute;
+    left: 45%;
+    top: 25px;
+    background-color: orange;
+}
+.kit{
+    background-image: url(assets/Rectangle\ 17.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    position: relative;
+}
+
+.mot{
+    display: block;
+    position: absolute;
+    left: 25%;
+    color: white;
+    top:100px;
+}
+.rot{
+    display: block;
+    position: absolute;
+    left: 25%;
+    color: white;
+    top: 150px;
+}
+
+.ot{
+    color: white;
+    top: 50px;
+    position: absolute;
+    left: 25%;
+}
+.yit{
+    display: block;
+    position: absolute;
+    left: 40%;
+    color: white;
+    top: 160px;
+}
+.tap{
+    display: block;
+    position: absolute;
+    left: 40%;
+    color: white;
+    top:100px;
+}
+
+.part{
+    color: white;
+    top: 50px;
+    position: absolute;
+    left: 40%;
+}
+.ret{
+    position: relative;
+    
+}
+.git{
+    background-image: url(assets/Rectangle\ 17\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    position: relative;
+}
+.tom{
+    display: block;
+    position: absolute;
+    left: 25%;
+    color: white;
+    top:100px;
+}
+.tor{
+    display: block;
+    position: absolute;
+    left: 25%;
+    color: white;
+    top: 150px;
+}
+
+.was{
+    color: white;
+    top: 50px;
+    position: absolute;
+    left: 25%;
+}
+.tiy{
+    display: block;
+    position: absolute;
+    left: 40%;
+    color: white;
+    top: 160px;
+}
+.ray{
+    display: block;
+    position: absolute;
+    left: 40%;
+    color: white;
+    top:100px;
+}
+
+.lop{
+    color: white;
+    top: 50px;
+    position: absolute;
+    left: 40%;
+}
+.hit{
+    position: relative;
+    
+}
+.est{
+    
+    
+    grid-column-start: 2;
+}
+.Privacy{
+    position: absolute;
+    bottom: 0;
+    right: 0.1%;
+}
+.cup{
+    font-size: 15px;
+}
+.ok{
+    position: absolute;
+    bottom: 0;
+    left: 65%;
+}
+.on{
+    position: absolute;
+    bottom: 0;
+    left: 80%;
+}
+.west{
+    position: absolute;
+    bottom: 44%;
+}
+.bottom{
+    background-color: rgb(0, 0, 0);
+    height: 40vh;
+    width: 97%;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 3150px ;
+    
+}
+.est{
+    
+    
+    grid-column-start: 2;
+}
+.Privacy{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.ok{
+    position: absolute;
+    bottom: 0;
+    left: 65%;
+}
+.on{
+    position: absolute;
+    bottom: 0;
+    left: 80%;
+}
+.email{
+    color: white;
+    background-color: black;
+    width: 9rem;
+    height: 2rem;
+    position: absolute;
+    left: 65.8%;
+    top: 21.9%;
+
+}
+.k{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 13px;
+}
+
+.s{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.Submit{
+    background-color: orange; 
+    color: black;
+    width: 4rem;
+    height: 2.2rem;
+    position: absolute;
+    left: 78%;
+    bottom: 63%;
+ }
+ p{
+    font-size: 13px;
+ }
+ @media screen  and (max-width:500px) {
+    .top{
+        display: block;
+    }
+ }
